@@ -81,6 +81,8 @@ library(ggplot2)
 ## Whole Blood Illumina 450k Microarray Data Example
 
 ```{r data-load, message=FALSE}
+data("FlowSorted.Blood.450k", package = "FlowSorted.Blood.450k")
+
 # Phenotypic information about samples
 head(pData(FlowSorted.Blood.450k))
 

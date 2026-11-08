@@ -21,3 +21,5 @@
   - removed depend on plyranges
 * changes in version 1.25.2
   - bumping to trigger a build
+* changes in version 1.27.1
+  - explicitly load FlowSorted.Blood.450k data in the vignette
